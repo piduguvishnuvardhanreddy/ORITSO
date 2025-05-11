@@ -1,0 +1,11 @@
+.nav {
+  background: linear-gradient(to right, #6a11cb, #2575fc);
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user-info {
+  font-weight: bold;
+}

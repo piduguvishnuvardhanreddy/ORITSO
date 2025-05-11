@@ -1,0 +1,22 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+}
+.task-form input,
+.task-form select {
+  padding: 0.5rem;
+}
+.task-form button {
+  background: #6a11cb;
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+.task-form button:hover {
+  background: #5800b3;
+}
